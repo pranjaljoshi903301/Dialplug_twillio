@@ -1,0 +1,7 @@
+{
+  "require": {
+    "laravel/socialite": "~4.0",
+    "laravel/nexmo-notification-channel": "~2.3"
+
+  }
+}

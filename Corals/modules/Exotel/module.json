@@ -1,0 +1,15 @@
+{
+  "code": "corals-exotel",
+  "name": "Exotel Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Starter Package",
+  "namespace": "Corals\\Modules\\Exotel\\",
+  "provider": "ExotelServiceProvider",
+  "version": "1.0",
+  "load_order": "0",
+  "folder": "Exotel",
+  "autoload": "psr-4",
+  "icon": "fa fa-clone",
+  "require": {}
+}

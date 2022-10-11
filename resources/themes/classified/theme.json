@@ -1,0 +1,26 @@
+{
+  "type": "frontend",
+  "name": "corals-classified-master",
+  "caption": "Classified Master Theme",
+  "extends": null,
+  "assetPath": "assets\/themes\/classified",
+  "version": "2.2.1",
+  "css": [
+    "css/bootstrap.min.css",
+    "font-awesome-4.7.0/css/font-awesome.min.css",
+    "css/custom.css",
+    "css/main.css",
+    "plugins/select2/dist/css/select2.min.css",
+    "css/responsive.css"
+  ],
+  "js": [
+    "js/jquery-min.js",
+    "plugins/select2/dist/js/select2.full.min.js",
+    "plugins/toastr/toastr.min.js",
+    "js/classified_functions.js",
+    "js/classified_main.js",
+    "js/bootstrap.min.js",
+    "js/main.js"
+  ],
+  "platform": "Classified"
+}

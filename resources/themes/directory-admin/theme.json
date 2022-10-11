@@ -1,0 +1,8 @@
+{
+  "type": "admin",
+  "name": "corals-directory-admin",
+  "extends": "corals-directory-listing-star",
+  "caption": "Corals Directory Admin",
+  "version": "1.2",
+  "assetPath": "assets\/themes\/directory-admin"
+}

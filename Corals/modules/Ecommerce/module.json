@@ -1,0 +1,24 @@
+{
+  "code": "corals-ecommerce",
+  "name": "Ecommerce Manager",
+  "author": "Corals",
+  "type": "module",
+  "description": "Manage Subscriptions, products, plans...",
+  "namespace": "Corals\\Modules\\Ecommerce",
+  "provider": "EcommerceServiceProvider",
+  "version": "4.2.2",
+  "load_order": "601",
+  "folder": "Ecommerce",
+  "autoload": "psr-4",
+  "icon": "fa fa-shopping-cart",
+  "require": {
+    "corals-foundation": "^5.0",
+    "corals-payment": "^4.0",
+    "corals-user": "^4.0",
+    "corals-settings": "^4.0",
+    "corals-cms": "^4.0",
+    "corals-utility": "^3.0"
+  },
+  "platform": "Ecommerce",
+  "supported_platforms": []
+}

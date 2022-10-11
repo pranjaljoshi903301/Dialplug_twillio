@@ -1,0 +1,15 @@
+{
+  "code": "corals-twillio",
+  "name": "Twillio Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Starter Package",
+  "namespace": "Corals\\Modules\\Twillio\\",
+  "provider": "TwillioServiceProvider",
+  "version": "1.0",
+  "load_order": "0",
+  "folder": "Twillio",
+  "autoload": "psr-4",
+  "icon": "fa fa-clone",
+  "require": {}
+}

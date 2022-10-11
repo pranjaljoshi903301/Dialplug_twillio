@@ -1,0 +1,12 @@
+2.0
+------------------------------------
+Laravel 6 Upgrade
+
+1.8
+--------------------------
+Add the Ability for free text zip code location instead of drop down
+
+1.6.1
+---------------------------------
+
+Fix Category Search in Home Page Hero section

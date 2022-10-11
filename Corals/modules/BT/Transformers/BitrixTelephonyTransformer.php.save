@@ -1,0 +1,50 @@
+<?php
+
+namespace Corals\Modules\BT\Transformers;
+
+use Corals\Foundation\Transformers\BaseTransformer;
+use Corals\Modules\BT\Models\BitrixTelephony;
+use Corals\User\Models\User;
+
+class BitrixTelephonyTransformer extends BaseTransformer
+{
+    public function __construct()
+    {
+        $this->resource_url = config('bt.models.bitrixtelephony.resource_url');
+
+        parent::__construct();
+    }
+
+    /**
+     * @param BitrixTelephony $bitrixtelephony
+     * @return array
+     * @throws \Throwable
+     */
+    public function transform(BitrixTelephony $bitrixtelephony)
+    {
+        $show_url = url($this->resource_url . '/' . $bitrixtelephony->hashed_id);
+        $user = User::where('id', $bitrixtelephony->user_id)->first();
+
+	$actions['createUser'] = [
+            'href' => url('/bt_users/' . $bitrixtelephony->hashed_id . '/createUser'),
+	    'class' => 'fa fa-fw fa-plus text-center btn-success',
+	    'style' => 'width: 100%;',
+            'data' => [
+                'action' => 'createUser',
+            ],
+        ];
+
+        $transformedArray = [
+            'id' => $bitrixtelephony->id,
+            'name' => HtmlElement('a', ['href' => $bitrixtelephony->getShowURL()], $bitrixtelephony->name),
+
+            // Dialplug Fields
+            'user' => $user->name . " " . $user->last_name,
+            'webhook_url' => $bitrixtelephony->webhook_url,
+
+	    'action' => isSuperUser() ? $this->actions($bitrixtelephony, $actions) : $this->actions($bitrixtelephony),
+        ];
+
+        return parent::transformResponse($transformedArray);
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "code": "corals-demo",
+  "name": "Demo Manager",
+  "author": "Corals",
+  "type": "module",
+  "description": "Demo Package",
+  "namespace": "Corals\\Modules\\Demo\\",
+  "provider": "DemoServiceProvider",
+  "version": "1.0",
+  "load_order": "200",
+  "folder": "Demo",
+  "autoload": "psr-4",
+  "icon": "fa fa-eye",
+  "require": {}
+}

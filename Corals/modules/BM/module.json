@@ -1,0 +1,15 @@
+{
+  "code": "bitrix-mobile",
+  "name": "Bitrix Mobile",
+  "author": "Dialplug",
+  "type": "module",
+  "description": "Bitrix Mobile Package",
+  "namespace": "Corals\\Modules\\BM\\",
+  "provider": "BMServiceProvider",
+  "version": "1.0",
+  "load_order": "0",
+  "folder": "BM",
+  "autoload": "psr-4",
+  "icon": "fa fa-mobile",
+  "require": {}
+}

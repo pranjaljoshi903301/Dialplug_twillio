@@ -1,0 +1,15 @@
+{
+  "code": "bitrix-telephony-module",
+  "name": "Bitrix Telephony",
+  "author": "Dialplug",
+  "type": "module",
+  "description": "Bitrix Telephony Package",
+  "namespace": "Corals\\Modules\\BT\\",
+  "provider": "BTServiceProvider",
+  "version": "1.0",
+  "load_order": "0",
+  "folder": "BT",
+  "autoload": "psr-4",
+  "icon": "fa fa-phone",
+  "require": {}
+}

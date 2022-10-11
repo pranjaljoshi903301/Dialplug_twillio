@@ -1,0 +1,22 @@
+{
+  "code": "corals-classified",
+  "name": "Classifieds Module",
+  "author": "Corals",
+  "type": "module",
+  "description": "Classified Package",
+  "namespace": "Corals\\Modules\\Classified\\",
+  "provider": "ClassifiedServiceProvider",
+  "version": "3.1",
+  "load_order": "0",
+  "folder": "Classified",
+  "autoload": "psr-4",
+  "icon": "fa fa-list",
+  "require": {
+    "corals-foundation": "^5.0",
+    "corals-cms": "^4.0",
+    "corals-payment": "^4.0",
+    "corals-utility": "^3.0"
+  },
+  "platform": "Classified",
+  "supported_platforms": []
+}

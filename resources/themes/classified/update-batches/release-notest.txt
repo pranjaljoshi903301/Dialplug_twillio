@@ -1,0 +1,18 @@
+2.0
+------------------------------------
+Laravel 6 Upgrade
+
+1.8.3
+-------------------------------------
+Add Product views to the classified products
+
+1.8
+-------------------------------
+Add the Ability for free text zip code location instead of drop down
+
+
+1.7.1
+Fix Category Search in Home Page Hero section
+
+--------------------------------------
+Add "Create Listing" for mobile users

@@ -1,0 +1,12 @@
+{
+  "type": "admin",
+  "name": "admin-dragon",
+  "caption": "Admin Dragon Theme",
+  "extends": null,
+  "assetPath": "assets\/themes\/admin-dragon",
+  "version": "2.0.2",
+  "css": [
+  ],
+  "js": [
+  ]
+}

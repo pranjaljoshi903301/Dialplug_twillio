@@ -1,0 +1,18 @@
+{
+  "type": "frontend",
+  "name": "corals-saas",
+  "extends": null,
+  "caption": "Corals SAAS",
+  "version": "2.1",
+  "assetPath": "assets\/themes\/saas",
+  "css": [
+    "css/plugins/bundle.css",
+    "css/plugins/font-awesome/css/font-awesome.min.css",
+    "css/style.css"
+  ],
+  "js": [
+    "js/plugins/plugins.js",
+    "js/template-custom.js"
+  ],
+  "platform": "Subscription"
+}

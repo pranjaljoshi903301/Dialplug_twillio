@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* RESET STYLES */
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        /* MEDIA QUERIES */
+        @media screen and (max-width: 480px) {
+            .mobile-hide {
+                display: none !important;
+            }
+
+            .mobile-center {
+                text-align: center !important;
+            }
+        }
+
+        /* ANDROID CENTER FIX */
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+
+    </style>
+
+<body style="margin: 0 !important; padding: 0 !important; background-color: #eeeeee;" bgcolor="#eeeeee">
+
+    <!-- HIDDEN PREHEADER TEXT -->
+    <div
+        style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: Open Sans, Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+    </div>
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td align="center" style="background-color: #eeeeee;" bgcolor="#eeeeee">
+                <!--[if (gte mso 9)|(IE)]>
+   <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+    <tr>
+     <td align="center" valign="top" width="600">
+   <![endif]-->
+                <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width:600px;">
+                    <tr>
+                        <td align="center" valign="top" style="font-size:0; padding: 35px;" bgcolor="#044767">
+                            <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+       <tr>
+        <td align="left" valign="top" width="300">
+      <![endif]-->
+                            <div
+                                style="display:inline-block; max-width:50%; min-width:100px; vertical-align:top; width:100%;">
+
+                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%"
+                                    style="max-width:300px;">
+                                    <tr>
+                                        <td align="left" valign="top"
+                                            style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 800; line-height: 48px;"
+                                            class="mobile-center">
+                                            <h1 style="font-size: 36px; font-weight: 800; margin: 0; color: #ffffff;">
+                                                {{ \Settings::get('site_name') }}
+                                            </h1>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+      </td>
+      <td align="right" width="300">
+      <![endif]-->
+                            <div style="display:inline-block; max-width:50%; min-width:100px; vertical-align:top; width:100%;"
+                                class="mobile-hide">
+                                <table align="left" border="0" cellpadding="0" cellspacing="0" width="100%"
+                                    style="max-width:300px;">
+                                    <tr>
+                                        <td align="right" valign="top"
+                                            style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 800; line-height: 48px;"
+                                            class="mobile-center">
+                                            <a href="{{ url('/') }}" target="_blank"
+                                                style="color: #ffffff; text-decoration: none;">
+                                                <img src="{{ \Settings::get('site_logo') }}" height="48"
+                                                    style="display: block; border: 0px;height:48px;width: auto;" /></a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding: 35px; background-color: #ffffff;" bgcolor="#ffffff">
+                            <!--[if (gte mso 9)|(IE)]>
+       <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+       <tr>
+        <td align="center" valign="top" width="600">
+       <![endif]-->
+                            {{-- email body --}}
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" style="max-width:600px;"
+                                width="100%">
+                                <tbody>
+                                    <tr>
+                                        <td align="left"
+                                            style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: 400; line-height: 24px; padding-bottom: 15px;">
+                                            <p
+                                                style="font-size: 18px; font-weight: 800; line-height: 24px; color: #333333;">
+                                                Hello {{ $name }},</p>
+
+                                            <p
+                                                style="font-size: 16px; font-weight: 400; line-height: 24px; color: #777777;">
+                                                Congratulations! We appreciate your patience.
+                                                <br /><br />
+                                                As Last Step, you need to download and configure Dialplug Dialer.
+                                                <br>
+                                                Dialplug Dialer will be used for incoming and outgoing calls.
+                                            </p>
+                                            <p
+                                                style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                <strong>Dialplug Dialer Download Links : </strong>
+                                            <ul>
+                                                <li>
+                                                    <a href="https://chrome.google.com/webstore/detail/dialplug-dialer/dbpokkigohkjicapgcndgbapdegikhle">Chrome Extension</a>
+                                                </li>
+                                                <!-- 
+                                                <li>
+                                                    <a href="{{ url('') . '/dialplug/dialplug_dialer.exe' }}">Windows</a>
+                                                </li>
+                                                <li>
+                                                    <a href="{{ url('') . '/dialplug/dialplug_dialer.dmg' }}">Mac</a>
+                                                </li>
+                                                -->
+                                            </ul>
+                                            </p>
+                                            <p
+                                                style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                <strong>Dialplug Dialer Setup Guide : </strong>
+                                            <ol style="list-style: none !important; list-style-type: none !important;">
+                                                <li style="list-style-type: none;">
+                                                    <a
+                                                        href="{{ url('') . '/bitrix_videos/dialplug_dialer_setup.mp4' }}">Setup
+                                                        Dialplug Dialer</a>
+                                                </li>
+                                                <li style="list-style-type: none;">
+                                                    <a href="{{ url('') . '/bitrix_videos/outgoing_call.mp4' }}">Outgoing
+                                                        Calls</a>
+                                                </li>
+                                                <li style="list-style-type: none;">
+                                                    <a href="{{ url('') . '/bitrix_videos/incoming_call.mp4' }}">Incoming
+                                                        Calls</a>
+                                                </li>
+                                            </ol>
+                                            </p>
+
+
+                                            <p
+                                                style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                Your Dialplug Number : <strong>{{ $phone_number }}</strong> (Used for
+                                                outgoing and incoming calls).
+                                            </p>
+
+                                            <p
+                                                style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                <strong>Dialplug Dialer Login Credentials : </strong>
+                                                <br>
+                                                ====================================================
+                                                    <br>
+                                                    Dialplug Domain : <strong>{{ $bt_user['dialplug_domain'] }}</strong>
+                                                    <br>
+                                                    Bitrix Username : <strong>{{ $bt_user['bitrix_username'] }}</strong>
+                                                    <br>
+                                                    Username : <strong>{{ $bt_user['extension'] }}</strong>
+                                                    <br>
+                                                    Password : <strong>{{ $bt_user['password'] }}</strong>
+                                                    <br>
+                                                ====================================================
+                                            </p>
+
+                                            <p
+                                                style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                Please feel free to reach us through
+                                                :&nbsp;</p>
+
+                                            <ul style="">
+                                                <li
+                                                    style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                    Email :&nbsp;<strong><em>service-desk@dialplug.com</em></strong>
+                                                </li>
+                                                <li
+                                                    style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                    Phone Number :&nbsp;<em><strong>+91 9929067374</strong></em></li>
+                                            </ul>
+                                            <p
+                                                style="font-weight: 400; font-size: 16px; line-height: 24px; color: rgb(119, 119, 119);">
+                                                Thanks.
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <!-- 
+                                    <tr>
+                                        <td align="center" style="padding: 10px 0 25px 0;">
+                                            <table border="0" cellpadding="0" cellspacing="0">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="center" bgcolor="#ed8e20"
+                                                            style="border-radius: 5px;"><a href="{{ $domain }}"
+                                                                style="font-size: 18px; font-family: Open Sans, Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; border-radius: 5px; background-color: #ed8e20; padding: 15px 30px; border: 1px solid #ed8e20; display: block;"
+                                                                target="_blank">Visit your Dashboard</a></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                    -->
+                                </tbody>
+                            </table>
+                            {{-- end email body --}}
+                            <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="background-color: #ffffff;" bgcolor="#ffffff">
+                            <img src="{!!  asset('assets/corals/images/email/arrow-up.png') !!}" width="46" height="22"
+                                style="display: block; border: 0px;" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center"
+                            style=" padding: 35px; background-color: #1b9ba3; border-bottom: 20px solid #48afb5;"
+                            bgcolor="#1b9ba3">
+                            <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+       <tr>
+        <td align="center" valign="top" width="600">
+      <![endif]-->
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="max-width:600px;">
+                                <tr>
+                                    <td align="center">
+                                        <table>
+                                            <tr>
+                                                @foreach (\Settings::get('social_links', []) as $key => $link)
+                                                    <td style="padding: 0 10px;">
+                                                        <a href="{{ $link }}" target="_blank">
+                                                            <img src="{!!  asset('assets/corals/images/social_icons/48/' . $key . '.png') !!}"
+                                                                width="35" height="29"
+                                                                style="display: block; border: 0px;" /></a>
+                                                    </td>
+                                                @endforeach
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="padding: 35px; background-color: #ffffff;" bgcolor="#ffffff">
+                            <!--[if (gte mso 9)|(IE)]>
+      <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+       <tr>
+        <td align="center" valign="top" width="600">
+      <![endif]-->
+                            <table align="center" border="0" cellpadding="0" cellspacing="0" width="100%"
+                                style="max-width:600px;">
+                                <tr>
+                                    <td align="center">
+                                        <img src="{{ \Settings::get('site_logo') }}" height="48"
+                                            style="display: block; border: 0px;height:48px;width: auto;" />
+                                    </td>
+                                </tr>
+                                {{--<tr>--}}
+                                    {{--<td align="center"
+                                        --}}
+                                        {{--style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 24px; padding: 5px 0 10px 0;">
+                                        --}}
+                                        {{--<p
+                                            style="font-size: 14px; font-weight: 800; line-height: 18px; color: #333333;">
+                                            --}}
+                                            {{--675 Massachusetts
+                                            Avenue<br>--}}
+                                            {{--Cambridge, MA
+                                            02139--}}
+                                            {{--</p>--}}
+                                        {{--</td>--}}
+                                    {{--</tr>--}}
+                                {{--<tr>--}}
+                                    {{--<td align="left" --}}
+                                        {{--style="font-family: Open Sans, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 24px;">
+                                        --}}
+                                        {{--<p
+                                            style="font-size: 14px; font-weight: 400; line-height: 20px; color: #777777;">
+                                            --}}
+                                            {{--If you didn't create an account using this
+                                            email address, please ignore this--}}
+                                            {{--email or <a href="{{ url('/') }}"
+                                                target="_blank"
+                                                style="color: #777777;">unsusbscribe</a>.--}}
+                                            {{--</p>--}}
+                                        {{--</td>--}}
+                                    {{--</tr>--}}
+                            </table>
+                            <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+   </td>
+   </tr>
+   </table>
+   <![endif]-->
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
+
